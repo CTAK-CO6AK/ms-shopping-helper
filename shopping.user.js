@@ -1,7 +1,9 @@
 // ==UserScript==
 // @name         Shopping Game Helper
-// @version      0.2
+// @version      0.3
 // @description  You have to do first game by yourself
+// @downloadURL  https://github.com/CTAK-CO6AK/ms-shopping-helper/raw/main/shopping.user.js
+// @updateURL    https://github.com/CTAK-CO6AK/ms-shopping-helper/raw/main/shopping.user.js
 // @author       CTAK_CO6AK
 // @match        https://www.msn.com/*/shopping
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=msn.com
