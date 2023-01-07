@@ -30,16 +30,18 @@
             let minIndex = 1;
             for(var i=0;i<3;i++){
                 let price = parseFloat(bebra[i].priceInfo.price.slice(1), 10);
+                //console.log(`[${i}] - ${price}`);
                 if(price < minPrice){
                     minPrice = price;
                     minIndex = i+1;
                 }
             }
+            //console.log(`Min: ${minPrice}`);
             document.title = `Game #${game}, press ${index}`;
             index = minIndex;
             game++;
         }
-                         },1000);
+                         },100);
 
         response.json = json;
         return response;
