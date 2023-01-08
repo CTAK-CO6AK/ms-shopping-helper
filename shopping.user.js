@@ -27,7 +27,7 @@
         }
     }
     function applyOutline(i) {
-        if(aboba == 0) return;
+        if(i == 0) return;
         clearOutlines();
         getCard(i).style.outline = "6px solid green";
     }
