@@ -1,4 +1,7 @@
 # ms-shopping-helper
+
+*Shopping Game removed - repository archived*
+
 Microsoft Rewards Shopping Game Helper
 
 How to use:
